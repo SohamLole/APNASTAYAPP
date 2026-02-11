@@ -126,8 +126,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                    <p className="text-gray-600">+91 98765 43210</p>
-                    <p className="text-gray-600">+91 98765 43211</p>
+                    <p className="text-gray-600">+91 82828 17474</p>
+                    {/* <p className="text-gray-600">+91 98765 43211</p> */}
                   </div>
                 </div>
               </Card>
@@ -140,9 +140,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Office</h3>
                     <p className="text-gray-600">
-                      Koramangala, 5th Block<br />
-                      Bangalore, Karnataka<br />
-                      560095, India
+                      ApnaStay PG Services<br />
+                      PanCard Club Rd, Baner<br />
+                      Pune, 411045
                     </p>
                   </div>
                 </div>

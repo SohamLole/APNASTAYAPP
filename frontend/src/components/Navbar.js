@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Home, Search, Info, Phone, Menu, X, User, LogOut } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
+import logo from '@/assets/ApnaStayLogo.png';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,15 +34,17 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3" data-testid="navbar-logo">
-            <div className="w-12 h-12 bg-gradient-to-br from-[#FF8C42] to-[#E91E63] rounded-xl flex items-center justify-center">
-              <Home className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF8C42] to-[#E91E63]">
+            <img 
+              src={logo} 
+              alt="APNASTAY Logo" 
+              className="w-14 h-14 object-contain"
+            />
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#e26506] to-[#e91e1e]">
               APNASTAY
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8"> 
             <Link
               to="/"
               className="text-gray-600 hover:text-[#E91E63] font-medium transition-colors"

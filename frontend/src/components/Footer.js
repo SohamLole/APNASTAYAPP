@@ -48,11 +48,11 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Cities</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">Bangalore</li>
+              {/* <li className="text-gray-400">Bangalore</li>
               <li className="text-gray-400">Mumbai</li>
-              <li className="text-gray-400">Delhi</li>
+              <li className="text-gray-400">Delhi</li> 
+              <li className="text-gray-400">Hyderabad</li> */}
               <li className="text-gray-400">Pune</li>
-              <li className="text-gray-400">Hyderabad</li>
             </ul>
           </div>
 
@@ -61,15 +61,15 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-gray-400">
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">contact@apnastay.com</span>
+                <span className="text-sm">apnastaypg@gmail.com</span>
               </li>
               <li className="flex items-start space-x-2 text-gray-400">
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 82828 17474</span>
               </li>
               <li className="flex items-start space-x-2 text-gray-400">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Koramangala, Bangalore</span>
+                <span className="text-sm">Baner, Pune</span>
               </li>
             </ul>
           </div>
